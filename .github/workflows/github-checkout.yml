@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkou t@v2
+      - uses: actions/checkout@v2
       - name: Run pwd
         run: pwd
       - name: Run ls -al
